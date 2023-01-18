@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.desktop-1-child {
+  border: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 76px;
+}
+.potatoes-leaf-disease {
+  margin: 0;
+  position: absolute;
+  top: 19px;
+  left: 388px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 663px;
+  height: 38px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 126px;
+  left: 1007px;
+  width: 340px;
+  height: 252px;
+  object-fit: cover;
+}
+.desktop-1-inner {
+  position: absolute;
+  top: 382px;
+  left: 569px;
+  background-color: var(--color-gray-100);
+  width: 332px;
+  height: 60px;
+}
+.early-blight {
+  margin: 0;
+  position: absolute;
+  top: 394px;
+  left: 611px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.rectangle-div {
+  position: absolute;
+  top: 382px;
+  left: 127px;
+  background-color: var(--color-gray-100);
+  width: 332px;
+  height: 60px;
+}
+.healthy-leaf {
+  margin: 0;
+  position: absolute;
+  top: 394px;
+  left: 170px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 219px;
+  height: 35px;
+}
+.desktop-1-child1 {
+  position: absolute;
+  top: 382px;
+  left: 1011px;
+  background-color: var(--color-gray-100);
+  width: 332px;
+  height: 60px;
+}
+.late-blight {
+  margin: 0;
+  position: absolute;
+  top: 390px;
+  left: 1083px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 544px;
+  left: 312px;
+  width: 181px;
+  height: 180px;
+}
+.desktop-1-child2 {
+  position: absolute;
+  top: 785px;
+  left: 280px;
+  background-color: var(--color-gray-100);
+  width: 228px;
+  height: 42px;
+}
+.selected-img {
+  margin: 0;
+  position: absolute;
+  top: 728px;
+  left: 285px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.desktop-1-child3 {
+  position: absolute;
+  top: 783px;
+  left: 806px;
+  background-color: var(--color-gray-100);
+  width: 409px;
+  height: 59px;
+}
+.classify {
+  cursor: pointer;
+  border: 1;
+  border-color: aqua;
+  border-radius: 10px;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 639px;
+  left: 844px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.desktop-1-child4 {
+  position: absolute;
+  top: 865px;
+  left: 411px;
+  background-color: var(--color-gray-100);
+  width: 851px;
+  height: 135px;
+}
+.data {
+    margin: 0;
+    position: absolute;
+    top: 791px;
+    left: 658px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+.rectangle-input {
+  position: absolute;
+  top: 589px;
+  left: 807px;
+  background-color: var(--color-gray-200);
+  width: 220px;
+  height: 40px;
+}
+.desktop-1-child5,
+.rectangle-icon {
+  position: absolute;
+  top: 126px;
+  left: 135px;
+  width: 332px;
+  height: 244px;
+  object-fit: cover;
+}
+.desktop-1-child5 {
+  top: 118px;
+  left: 573px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
