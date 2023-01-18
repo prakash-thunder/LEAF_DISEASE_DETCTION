@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static' , filename='global.css')}}"/>
+    <link rel="stylesheet" href="{{ url_for('static' , filename='index.css')}}"/>
+ 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <textarea class="desktop-1-child"></textarea>
+      <h1 class="potatoes-leaf-disease">POTATOES LEAF DISEASE DETECTION</h1>
+      <img class="desktop-1-item" alt="" src="{{ url_for('static' , filename='public/rectangle-5@2x.png')}}" />
+      <div class="desktop-1-inner"></div>
+      <h3 class="early-blight">Early_Blight</h3>
+      <div class="rectangle-div"></div>
+      <h3 class="healthy-leaf">Healthy_Leaf</h3>
+      <div class="desktop-1-child1"></div>
+      <h3 class="late-blight">Late_Blight</h3>
+      <!-- <img class="ellipse-icon" alt="" src="{{ url_for('static' , filename='public/ellipse-1.svg')}}" /> -->
+      <div class="desktop-1-child2"></div>
+      <!-- <h3 class="selected-img">selected img</h3> -->
+      <div class="desktop-1-child3"></div>
+      <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input class="rectangle-input" type="file" name="img" />
+        <button type="submit" class="classify">Classify</button>
+    </form>
+      <div class="desktop-1-child4"></div>
+      <h3 class="data">classify as:{{data}} 
+        <br> actual:{{data3}} with confidence:{{data2}}%</h3>
+      <img
+        class="rectangle-icon"
+        alt=""
+        src="{{ url_for('static' , filename='public/rectangle-14@2x.png')}}"
+      /><img class="desktop-1-child5" alt="" src="{{ url_for('static' , filename='public/rectangle-15@2x.png')}}" />
+    </div>
+  </body>
+</html>
